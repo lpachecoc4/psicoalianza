@@ -7,14 +7,9 @@ PROCESOS = "/procesos"
 RESULTADOS = "/resultados"
 
 # API authentication credentials
-
 # Common headers to include in requests (e.g., authentication token)
 COMMON_HEADERS = {
     "Authorization": "Basic ",
-    "Token": ""
+    "Token": "",
+    "Content-Type": "application/json"
 }
-
-# Other project-specific configuration variables
-# For example:
-# DATABASE_HOST = "localhost"
-# DATABASE_PORT = 5432
