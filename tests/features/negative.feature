@@ -36,7 +36,7 @@ And the user adds the following prueba
 | valor_porcentual | 100   |
 When the user sends a POST request to create a proceso
 Then the response status code should be '422'
-And the error should be 'El campo fecha_cierre debe ser mayor o igual a 2023-11-05'
+And the error should be 'El campo fecha_cierre debe ser mayor o igual a 2023-11-06'
 
 Scenario: The user is not able to create a process with wrong percentages
 Given the user has the following data

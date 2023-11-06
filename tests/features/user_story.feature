@@ -6,7 +6,7 @@ Feature: User story
 Scenario: The user creates and consults a hiring process
 Given the user has the following data
 |   key                  |   value               |
-| proceso_nombre         | Proceso de prueba1204 |
+| proceso_nombre         | Proceso de prueba1224 |
 | fecha_cierre           | 2023-12-31            |
 | numero_vacantes        | 3                     |
 | proceso_estado         | true                  |
@@ -20,7 +20,7 @@ When the user sends a POST request to create a proceso
 Then the response status code should be '200'
 And the response data should have
 |   key                  |   value               |
-| proceso_nombre         | Proceso de prueba1204 |
+| proceso_nombre         | Proceso de prueba1224 |
 | fecha_cierre           | 2023-12-31            |
 | numero_vacantes        | 3                     |
 | estado                 | true                  |

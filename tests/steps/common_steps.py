@@ -53,4 +53,3 @@ def step_implementation(context):
         data[row["key"]] = int(row["value"])
     with soft_assertions():
         assert_that(data).is_subset_of(context.response.json()["data"]["pruebas"][0])
-

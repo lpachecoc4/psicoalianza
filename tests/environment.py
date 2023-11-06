@@ -22,5 +22,3 @@ def setup_data(context):
 
 def before_scenario(context, scenario):
     use_fixture(setup_data, context)
-
-
