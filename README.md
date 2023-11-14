@@ -6,8 +6,9 @@ To run all test cases it is recommended to use python venv.
 How to use.
 1. Install requirements. Run command line "pip install -r requirements.txt".
 2. Install allure and add to path. All releases in https://github.com/allure-framework/allure2/releases.
-3. Run command line "behave -f allure_behave.formatter:AllureFormatter -o .\results\ .\tests\". Note that you must be situated on the psicoalianza folder in order for this to work.
-4. Run command line "allure serve results". The generated report will appear on the default browser.
+3. Change config.py file adding the auth tokens provided by the company.
+4. Run command line "behave -f allure_behave.formatter:AllureFormatter -o .\results\ .\tests\". Note that you must be situated on the psicoalianza folder in order for this to work.
+5. Run command line "allure serve results". The generated report will appear on the default browser.
 
 --------------------------------------------
 
@@ -18,5 +19,6 @@ Para correr todos los casos de preba se recomienda usar un ambiente virtual venv
 Cómo usar:
 1. Instalar requerimientos. Correr "pip install -r requirements.txt".
 2. Instalar allure y agregarlo al path. Todas las versiones en https://github.com/allure-framework/allure2/releases.
-3. Correr línea de comando "behave -f allure_behave.formatter:AllureFormatter -o .\results\ .\tests\". Importante estar situado en la carpeta de psicoalinza para no obtener errores.
-4. Correr línea de comando "allure serve results". El reporte generado aparecerá en el navegador por defecto.
+3. Cambia el archivo config.py con los tokens de autorización otorgados por la compañía.
+4. Correr línea de comando "behave -f allure_behave.formatter:AllureFormatter -o .\results\ .\tests\". Importante estar situado en la carpeta de psicoalinza para no obtener errores.
+5. Correr línea de comando "allure serve results". El reporte generado aparecerá en el navegador por defecto.
